@@ -1,0 +1,96 @@
+<!-- Demo Application-->
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+        <title> Login Page</title>
+		<link rel="icon" href="firstlogo.png">
+		<style>
+		       #div1{
+			         width:500px;
+					 height:400px;
+					 margin-left:100px;
+					 margin-top:100px;
+					 background:white;
+					 float:left;
+					 text-align:center;
+					 padding-top:50px;
+					 border-radius:100px;
+					 opacity:0.8;   /* transparent*/
+					 }
+				#div2{
+				     width:300px;
+					 height:400px;
+					 margin-left:200px;
+					 margin-top:100px;
+					 background:white;
+					 float:left;
+					 border-radius:15px;
+					 box-shadow:6px 6px rgb(255,0,0,0.8);
+					 padding-left:30px;
+					 padding-top:40px;
+					 }
+			 label{
+			         font-size:20px;
+					 font-family:Calibar;
+					 }
+			 input {
+			         font-size:20px;
+					 height:30px;
+					 }
+			span {
+			         color:red;
+					 font-size:20px;
+					 }
+			a{
+			        text-decoration:none;
+					font-size:20px;
+					}
+			a:hover {
+			         text-decoration:underline;
+					 }
+			button{
+			       width:260px;
+				   height:35px;
+				   font-size:20px;
+				   background:#0000ff;
+				   color:white;
+				   border:0;
+				   }
+		   button:hover{
+		           background:#3300cc;
+				   }
+				   </style>
+         </head>
+	<body style="background-image:url(F:\NIT\web dev\HTML\images\first.jpg); background-size:cover;">
+	  <div id="div1"> 
+	   <img src="F:\NIT\web dev\HTML\images\hd1.jpg">
+	   <h1 style="color:#3300ff;">Best Online Training Institute- Best Software Training instititude.<br>
+	   India's No.1 Software Training Institute </h1>
+	   </div>
+	   <div id="div2">
+	     <form id="f1" action="login.jsp" method ="post" autocomplete="off">
+		   <div style="margin-bottom:10px;">
+		   <label> username<span>*</span> </label>
+		   <br>
+		   <input type="text" id="una" name="una" required>
+		   </div>
+ <div style="margin-bottom:10px;">
+  <label> password<span>*</span> </label> 
+  <br>
+   <input type="password" id="pwd" name="pwd" required>
+    </div>
+	 <div style="margin-bottom:10px;">
+	  <button id="sb" name="sb" value="login"> Log In</button>
+	  </div>
+	  <br>
+	  <hr style="width:80%;">
+	  <br>
+	  <a href="newuser.html"> Create New Account</a>
+	  <br> <br>
+	  <a href="forgotpw.html">Forgotten Password</a>
+</form>
+</div>
+</body>
+</html>
+
+				 

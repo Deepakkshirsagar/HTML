@@ -1,0 +1,20 @@
+<!--example on input tag-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <title> input submit button</title>
+	 <link rel="icon" href="firstlogo.png">
+  </head>
+ <body>
+  <h2> demo on submit button</h2>
+  <form id="f1" action="search.jsp" method="get" autocomplete="off">
+  <input type="text" id="tb1" name="t1"> <br>
+  <input type="text" id="tb2" name="t2"> <br>
+  <input type="text" name="t3" <br> 
+  <input type="text" id="tb4" <br>
+  <input type="hidden" id="h1" name="h1" value="true"> <br>
+  <input type="submit" name="sb" value="submit"> <br>
+  </form>
+    <input type="text" id="tb5" name="t5"> <!-- placed outside form-->
+	</body>
+	</html>

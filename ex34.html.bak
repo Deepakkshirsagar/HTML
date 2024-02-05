@@ -1,0 +1,35 @@
+<!-- example on select tag-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>ex34</label>
+  <link rel="icon" href="firstlogo.png">
+  </head>
+ <body>
+   <h2> Demo on Dropdown Control</h2>
+   <form action="epass.jsp">
+     <label>pass type</label>
+	 <select id="need pass" name="need pass">
+	 <option value=""> select purpose</option>
+	 <option value="Death">Death in the family- to attend funerals</option>
+	 <option value="medical Emergency"> Medical Emergency-to go to Hospital </option>
+	 <option value="national/international passenger departure"> national/international passenger departure</option>
+	 <option value="standard student of telengana held in other state"> standard students of Telangana held in other state</option>
+	 <option value="to attend a family marrige at telengana">to attend a family marrige at telangana</option>
+	 </select>
+	 <br>
+	 <label>KYC Type</label>
+	 <select id="kyctype" name="kyctype">
+	 <option value="RC"> Rc</option>
+	 <option value="passport">passport</option> 
+	 <option value=""Aadhar" selected> Aadhar</option>
+	 <option value="Driving Licence"> Drivng Licence</option>
+	 <option value="PAN"> PAN</OPTION>
+	 <option value="Voteer-Id">Voter Id</option>
+	 <option value="Govt-ID"> State/central Govt</option>
+	 </select>
+	 <br>
+	 <button> Submit</button>
+	 </form>
+</body>
+</html>

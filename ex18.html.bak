@@ -1,0 +1,52 @@
+<!--example on table-->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title> ex18 </title>
+   <link rel="icon" href="firstlogo.png">
+ </head>
+ <body>
+   <h2> Demo on tables </h2>
+   <table>
+    <tr>
+	 <th>sno</th>
+	 <th> name</th>
+	 <th>phone</th>
+	 </tr>
+	 <tr>
+	 <td> 1</td>
+	 <td> Deepak</td>
+	 <td> 455666</td>
+	 </tr>
+	 <tr>
+	 <td>2</td>
+	 <td>Ram </td>
+	 <td> 45172</td>
+	 </tr>
+	 <tr>
+	 <td>3</td>
+	 <td> Angad</td>
+	 <td> 78994</td>
+	 </tr>
+	 <tr>
+	 <td> 4</td>
+	 <td> Arjun</td>
+	 <td> 56633</td>
+	 </tr>
+	 </table>
+	 <br> <br>
+	 <table style="border:2px solid; align:left;">
+	 <tr> 
+	 <th> sno</th>
+	 <th>name</th>
+	 <th> mo.no</th>
+	 </tr>
+	 <tr>
+	 <td>1</td> <td> Deepak</td> <td> 1111</td></tr>
+	 <tr> <td> 2</td> <td> Ramkishan</td> <td> 22222</td> </tr>
+	 <tr> <td> 3</td> <td> Angad </td> <td> 5555</td> </tr>
+	 <tr> <td> 4</td> <td> Arjun </td> <td> 9999</td> </tr>
+	 </table>
+  
+ </body>
+</html>

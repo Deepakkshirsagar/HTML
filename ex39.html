@@ -1,0 +1,19 @@
+<!-- Example on output tag & rang Control-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title> Ex39 </title>
+ <link rel="icon" href="firstlogo.png">
+ </head>
+  <body>
+    <h2> Demo on displaying data dynamic </h2>
+	<output>Hello world!!!</output><br>
+	<output id="op"></output>
+	<br> <br>
+ <button onclick="op.value='welcome'">Click Here</button>
+ <br>
+ <input type="range" id="r1"> <!-- min-1, max-100,value-50-->
+ <input type="range" id="r2" min="2000" max="10000" value="3000" style="width:300px:" onchange="res.value=r2.value">
+ <output id="res"></output>
+ </body>
+ </html>

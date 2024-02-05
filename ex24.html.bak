@@ -1,0 +1,17 @@
+<!-- Example on input password -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title> ex24 input password</title>
+  <link rel="icon" href="firstlogo.png">
+ </head>
+ <body>
+  <h2> Demo on password field</h2>
+  <input type="password" id="pw" name="pw" placeholder="Enter  password" >
+  <br>
+ <input type="password" id="pin" name="pin" max="5" placeholder="enter pin" >
+ <br>
+ <input type="password" id="vc" name="vc" placeholder="Enter verification code">
+  
+ </body>
+</html>

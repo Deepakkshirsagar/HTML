@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Regristration page</title>
+  <link rel="icon" href="firstlogo.png">
+  <style>
+  label {
+          font-size:20px;
+		  font-family:Calibari;
+		 }
+  input {
+         font-size:20px;
+		 }
+ span {
+        color:red;
+		font-size:18px;
+		}
+ input[ type="submit"]
+       width:260;
+	   height:30px;
+	   background:#ff0000;
+	   color:white;
+	   border:0;
+	   }
+ input[type="submit"]:hover{
+        backg
+ </head>round:#ff3366;
+ }
+           </style>
+      </head>
+ <body>
+   <h2 style="text-decoration:underline;"> student Enrollment</h2>
+   <form id="formal" action="register.jsp" autocomplete="off">
+    <label> Name </label> <span>*</span> <br>
+	<input type="text" id="sna" name="sna" required placeholder="enter full name"> 
+	<br> <br>
+	<label> Email Id</label> <span>*</span> <br>
+	<input type="text" id="mailid" name="mailid" required placeholder="enter mail id">
+	<br> <br>
+	<label>Phone</label> <span>*</span> <br>
+	<input type="text" id="course" name="course" required placeholder="type list courses with,">
+	<br> <br>
+	<label>Qualification</label> <span>*</span> <br>
+	<input type="text" id="qua" name="qua" required placeholder="enter  higher qualification">
+	<br> <br>
+	</form>
+ </body>
+</html>

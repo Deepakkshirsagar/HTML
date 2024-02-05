@@ -1,0 +1,19 @@
+<!-- Example on textarea tag-->
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+	   <title> Ex38 <title>
+	   <link rel="icon" href="firstlogo.png">
+	 </head>
+ <body>
+   <h2>Demo on Multiline text box</h2>
+   <label>Review this product</label><br>
+   <textarea id="tal" name="tal"> </textarea> <!-- 2RowsX20Clos-->
+   <br>
+   <label>Address:</label><br>
+   <textarea id="ta2" name="ta2" rows="6" cols="25"></textarea>
+   <br>
+   <label>Food Instructions(Maxchars-250):</label><br>
+   <textarea id="ta2" name="ta2" rows="3" cols="100" maxlength="250"></textarea>
+    </body>
+	</html>

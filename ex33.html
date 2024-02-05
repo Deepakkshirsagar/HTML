@@ -1,0 +1,28 @@
+<!--example on "input"-->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Ex33</title>
+	  <link rel="icon" href="firstlogo.png">
+	  </head>
+<body>
+     <form action="uploadfiles.jsp">
+	 <label>Photo</label> <br>
+	 <input type="file" id="file1" name="file1"> <!-- only 1 file, any type of file-->
+	 <br> <br> 
+	 <label>Purpose Document(S)</label><br>
+	 <input type="file" id="file2" name="file2" multiple> <!-- no.of files, Any type of files-->
+	 <br> <br>
+	 <label> KYC Document(only pdf format)</label>
+	 <br>
+	 <input type="file" id="file3" name="file3" accept=".pdf,.docx">
+
+<!-- accept=".jpg" or accept="images/*" or
+accept="audio/*" -->
+      <br> <br>
+	  <button> Upload</button>
+	  </form>
+	  </body>
+	  </html>
+
+

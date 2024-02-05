@@ -1,0 +1,25 @@
+<!-- exmaple on input tag-->
+<!DOCTYPEN HTML>
+<html lanh="en">
+ <head> 
+   <title> input </title>
+   <link rel="icon" href="firstlogo.png">
+   </head>
+ <body>
+  <h2> Demo on button control</h2>
+  <!-- <input type="button">  not preferbale-->
+    <input type="button" id="b1" value="Apply" onclick="alert('Apply Button clicked')">  <!-- name not required-->
+	<input type="button" id="b2" value="press here" onclick="document.write('button pressed')">
+
+	<input type="button" value="print table" onclick="printtable()">
+	  <script 
+	    function printtable()
+		{
+		let n=10, r;
+		for (i=1; i<=20; i++)
+		{
+		 r=n*i;
+		 document.write(n + " * " + i+" =" + r + "<br>");
+		 </script>
+		 </body>
+</html>
